@@ -3,26 +3,47 @@
 /* change the font color of the whole website */
 /* change the font size of the whole website */
 
+body{
+  background-color: #53d1f4;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+}
 
 /* change all h1 and h2 tags to be: 
   - centered
   - underlined
   - a color of your choosing
 */
-
+h1, h2{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(248, 247, 247);
+}
 
 /* change all h3 tags to be: 
   - underlined
   - a different color from the h1 and h2 tags 
 */
 
+h3{
+  text-decoration: underline;
+  color: #f4f4f4;
+}
+
+
 
 /* create a para1homepage id to have: 
   - a text color of your choosing 
 */
-
+#para1homepage{
+  color: rgb(55, 97, 174);
+}
 
 /* create a center class that centers text */
+.center{
+  text-align: center;
+}
 
 
 /* create a paragraph class of p tags that has:
@@ -33,6 +54,13 @@
   - rounded edges of 10px
 */
 
+p{
+  font-size: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
 
 /* create a para4homepage id that has:
   - a font size of your choosing
@@ -43,27 +71,59 @@
   - 200px of margin on the left
   - a thick ridge border with color of your choosing
 */
-
+#para4homepage{
+  font-size: 20px;
+  background-color: #efb397;
+  padding: 20px;
+  margin: 50px 200px 20px 0;
+  border: 2px ridge #faf4f4;
+}
 
 /* create a divmain id that has: 
   - a font color of your choosing
   - centered
 */
 
+#divmain{
+  color: #f4f4f4;
+  text-align: center;
+}
+
 
 /* create a divcampus class that has:
   - a font color of your choosing
 */
+
+#divcampus{
+  color: #0a0909;
+}
 
 
 /* create a divcontent class that has:
   - a font color of your choosing
 */
 
+#divcontent{
+  color: #f4f4f4;
+}
 
 /* create a highlight class that has:
   - a font color of your choosing
 */
 
+.highlight{
+  color: #11698f;
+}
 
 /* change all links to blue but a different color when visited and a different color when hovered over */
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: green;
+}
+
+a:hover{
+  color: red;
+}
